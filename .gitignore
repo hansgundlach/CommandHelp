@@ -1,0 +1,18 @@
+# Ignore environment variables
+.env
+
+# Ignore configuration files
+config.json
+secret-config.yml
+
+# Ignore all files with a .log extension
+*.log
+
+# Ignore specific directories
+/node_modules
+/vendor
+
+# Ignore files related to specific IDEs
+.DS_Store
+.idea/
+Thumbs.db
